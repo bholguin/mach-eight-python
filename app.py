@@ -12,7 +12,7 @@ def search_players(valor_usuario: int) -> None:
             if izq >= 0:
                 sum = (int(data['values'][der]["h_in"])+int(data['values'][izq]["h_in"]))
                 if sum == int(valor_usuario):
-                    print("{0} - {1} inch + {2} - {3} inch = {4}".format(data['values'][der]["first_name"], data['values'][der]["h_in"], data['values'][izq]["first_name"], data['values'][izq]["h_in"],  int(data['values'][der]["h_in"]) +  int(data['values'][izq]["h_in"])))
+                    print("{0} - {1} inch + {2} - {3} inch = {4}".format(data['values'][der]["first_name"], data['values'][der]["h_in"], data['values'][izq]["first_name"], data['values'][izq]["h_in"],  sum))
                     print("--------------------------------------------")
                     found = True
             else: 
