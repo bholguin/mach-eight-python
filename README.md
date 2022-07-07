@@ -3,9 +3,9 @@
 Prueba para aspirar a un cargo de programacion en la compañia, espero sea de su agrado.
 
 ## Iniciar Proyecto
-
+```
 - python3 app.py
-
+```
 
 ## Proyecto
 
@@ -28,8 +28,5 @@ Ejemplo de salida de la siguiente manera:
 - Nate Robinson         Mike Wilks
 ```
 
-El algoritmo para encontrar los pares debe ser más rápido que O(n^2). Debe
-funcionar correctamente en todos los casos de borde. Esta _no_ es una prueba a
-libro cerrado. Lo invitamos a contactarnos con cualquier duda que tenga.
 
 
